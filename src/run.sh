@@ -1,4 +1,4 @@
 #!/bin/sh
 
 javac -d ../bin Tagger.java
-java Tagger ../inputskels/fsm-input.utf8.txt $1 
+java ../bin/Tagger ../inputskels/fsm-input.utf8.txt $1 
